@@ -14,7 +14,7 @@ projects/agent-dashboard/index.html
 
 - 管理多条 Agent 工作流记录。
 - 按任务数、单任务 token、重试系数估算 30 天消耗。
-- 生成条形图和申请摘要。
+- 生成条形图和项目摘要。
 - 使用 `localStorage` 保存本地编辑内容。
 
 ## 适合作为证明的点

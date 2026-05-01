@@ -123,7 +123,7 @@ def render_markdown(records: list[WorkflowRecord]) -> str:
             "",
             "## 申请说明",
             "",
-            "这些数据用于说明 3 亿 token 申请目标的消耗来源：长上下文输入、模型输出、失败重试、验证轮次和公开案例整理都会产生实际 token 成本。",
+            "这些数据用于说明 30 天连续评测的资源消耗来源：长上下文输入、模型输出、失败重试、验证轮次和公开案例整理都会产生实际 token 成本。",
         ]
     )
     return "\n".join(lines) + "\n"

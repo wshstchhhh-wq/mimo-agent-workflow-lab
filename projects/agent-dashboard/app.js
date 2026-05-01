@@ -179,7 +179,7 @@ function buildSubmissionText() {
   const publicOutputs = workflows.filter((workflow) => workflow.publicOutput).length;
   return `我正在构建 MiMo Agent Workflow Lab，一个面向个人和小团队的 AI Agent 工作流项目。它包含静态工作流仪表盘、CSV 数据报告生成器和模型回答评测工具，覆盖${domains}等场景。核心痛点是日常任务跨数据、脚本、图表、报告和代码修改，人工切换成本高，而 Agent 工作流需要长上下文、多轮重试、执行验证和跨模型对照，普通赠额很快耗尽。
 
-目前计划在 30 天内运行 ${workflows.length} 类工作流，合计约 ${formatTokens(total)} token，其中 ${publicOutputs} 类会沉淀为 README、报告、截图或评测记录。Token 将用于 MiMo API 接入、Codex/Claude Code/OpenClaw 工作流测试、MiMo 与 GPT/Claude/DeepSeek 同题对照、中文报告生成、代码修改验证和失败重试复盘。我希望申请 3 亿 Token Plan 或等值赠金，用于完成 20-30 个端到端案例并公开整理结果。`;
+目前计划在 30 天内运行 ${workflows.length} 类工作流，合计约 ${formatTokens(total)} token，其中 ${publicOutputs} 类会沉淀为 README、报告、截图或评测记录。Token 将用于 MiMo API 接入、Codex/Claude Code/OpenClaw 工作流测试、MiMo 与 GPT/Claude/DeepSeek 同题对照、中文报告生成、代码修改验证和失败重试复盘，最终完成 20-30 个端到端案例并公开整理结果。`;
 }
 
 function render() {

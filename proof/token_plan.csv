@@ -6,4 +6,4 @@ Report generation,Markdown/Word-style Chinese reports + tables + figures,900000,
 Workflow logging,Prompt logs + failure analysis + README case studies,600000,30,18000000,Public case documentation
 Stress testing,Long context, multi-agent, repeated regeneration,4500000,18,81000000,High-token validation scenarios
 Buffer,Unexpected retries and prompt experiments,31500000,1,31500000,Approximate 10-12 percent reserve
-Total,30-day MiMo Orbit target plan,,,328800000,Target request: 300M token plan or equivalent credit
+Total,30-day MiMo Orbit evaluation plan,,,328800000,Capacity estimate for one complete evaluation cycle

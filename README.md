@@ -8,14 +8,14 @@
 
 ## 真实子项目
 
-- `projects/agent-dashboard`：静态网页仪表盘，用于登记 Agent 工作流、估算 token 和生成申请摘要。
+- `projects/agent-dashboard`：静态网页仪表盘，用于登记 Agent 工作流、估算 token 和生成项目摘要。
 - `projects/data-report-agent`：Python CSV 报告生成器，输出 Markdown 报告和 SVG 图表。
 - `projects/eval-harness`：Python 模型评测记录工具，输出评分报告和 CSV 汇总。
 
-## 申请目标
+## 资源规划
 
-- 目标额度：3 亿 token Token Plan，或等值赠金。
-- 合理区间：2.4 亿到 3.6 亿 token。
+- 阶段目标：完成一轮 30 天连续 Agent 工作流评测。
+- 估算消耗：2.4 亿到 3.6 亿 token。
 - 使用周期：30 天。
 - 主要用途：真实项目构建、MiMo 接入评测、跨模型对照、自动化日志和公开案例整理。
 

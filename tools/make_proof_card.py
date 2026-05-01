@@ -81,7 +81,7 @@ def main():
     tiny = font(19)
 
     d.text((80, 70), "MiMo Orbit 申请证明材料", font=title, fill=ink)
-    d.text((82, 142), "Agent Workflow Lab | 目标申请 3 亿 Token Plan", font=h2, fill=muted)
+    d.text((82, 142), "Agent Workflow Lab | 30 天连续评测资源规划", font=h2, fill=muted)
     d.line((80, 195, 1520, 195), fill=line, width=2)
 
     y = 235
@@ -125,7 +125,7 @@ def main():
         ("端到端案例", "20-30 个", "约 80-150 万 token/个"),
         ("跨模型评测", "35 组任务", "MiMo vs GPT/Claude/DeepSeek"),
         ("长上下文/多 Agent 压测", "18 组", "代码修改、重试、验证"),
-        ("30 天总需求", "2.4-3.6 亿", "申请目标：3 亿 token"),
+        ("30 天总需求", "2.4-3.6 亿", "完整评测周期估算"),
     ]
     yy = 705
     for a, b, c in rows:
