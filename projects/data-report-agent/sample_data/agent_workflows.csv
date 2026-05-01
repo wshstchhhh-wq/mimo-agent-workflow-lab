@@ -1,0 +1,6 @@
+workflow,domain,cases,avg_input_tokens,avg_output_tokens,retry_rate,verification_runs,public_output
+CSV 数据报告生成器,数据分析,24,820000,380000,0.35,18,yes
+跨模型回答评测,模型评测,30,1700000,800000,0.45,30,yes
+多 Agent 代码修改与验证,代码生成,26,1250000,550000,0.55,26,yes
+中文报告与图表自动化,文档自动化,24,620000,280000,0.25,16,yes
+长上下文知识库整理,学习复盘,10,1800000,900000,0.5,10,no

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "csv-report",
+    "title": "CSV 数据报告生成",
+    "prompt": "给定一个包含工作流、案例数、平均 token 和重试率的 CSV，生成可提交的中文 Markdown 报告和图表。",
+    "required_terms": ["CSV", "Markdown", "图表", "token", "重试"]
+  },
+  {
+    "id": "agent-code-review",
+    "title": "Agent 代码修改与验证",
+    "prompt": "设计一个多 Agent 修改代码并完成验证的流程，要求包含任务拆分、测试、日志和回滚策略。",
+    "required_terms": ["Agent", "任务拆分", "测试", "日志", "验证"]
+  },
+  {
+    "id": "mimo-comparison",
+    "title": "MiMo 跨模型评测",
+    "prompt": "设计一套 MiMo 与 GPT、Claude、DeepSeek 同题评测的方法，关注中文报告、长上下文和代码修改。",
+    "required_terms": ["MiMo", "GPT", "Claude", "DeepSeek", "长上下文"]
+  }
+]

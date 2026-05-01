@@ -1,0 +1,32 @@
+[
+  {
+    "model": "MiMo V2.5 planned",
+    "prompt_id": "csv-report",
+    "response": "流程应先读取 CSV 字段，校验案例数、平均 token 和重试率，再生成 Markdown 总览、明细表和 SVG 图表。报告需要保留运行命令、输入路径、输出路径和失败重试说明，便于提交给 MiMo Orbit 人工评估。"
+  },
+  {
+    "model": "GPT series baseline",
+    "prompt_id": "csv-report",
+    "response": "可以用 Python 读取 CSV 并生成报告。输出包括 Markdown 和图表，附上 token 估算。"
+  },
+  {
+    "model": "MiMo V2.5 planned",
+    "prompt_id": "agent-code-review",
+    "response": "多 Agent 流程分为需求读取、任务拆分、实现、测试、日志整理和验证六步。每个 Agent 写入自己的输出文件，主流程运行单元测试并记录失败原因；如果验证失败，保留 diff 和回滚策略，重新分派最小修复任务。"
+  },
+  {
+    "model": "DeepSeek baseline",
+    "prompt_id": "agent-code-review",
+    "response": "先拆分任务，然后让 Agent 写代码，最后测试。需要日志记录。"
+  },
+  {
+    "model": "MiMo V2.5 planned",
+    "prompt_id": "mimo-comparison",
+    "response": "评测集包含中文报告、长上下文代码修改和数据分析三类。对 MiMo、GPT、Claude、DeepSeek 使用同题 prompt，记录输入输出 token、是否完成要求、失败重试次数和人工备注。最后按必要术语覆盖、结构化程度和具体性生成对比表。"
+  },
+  {
+    "model": "Claude baseline",
+    "prompt_id": "mimo-comparison",
+    "response": "可以比较 MiMo、GPT、Claude、DeepSeek 在长上下文和代码修改任务中的表现，并记录每次结果。"
+  }
+]

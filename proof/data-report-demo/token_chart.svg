@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="435" viewBox="0 0 1100 435">
+<rect width="100%" height="100%" fill="#f6f7fb"/>
+<text x="40" y="42" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="28" font-weight="700" fill="#17201f">30 天 token 估算</text>
+<text x="40" y="96" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="18" fill="#17201f">跨模型回答评测</text>
+<rect x="280" y="70" width="700" height="26" rx="6" fill="#e4ecea"/>
+<rect x="280" y="70" width="700" height="26" rx="6" fill="#087f8c"/>
+<text x="998" y="90" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="17" fill="#66716f">1.35 亿</text>
+<text x="40" y="158" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="18" fill="#17201f">多 Agent 代码修改与验证</text>
+<rect x="280" y="132" width="700" height="26" rx="6" fill="#e4ecea"/>
+<rect x="280" y="132" width="461" height="26" rx="6" fill="#cf5b3f"/>
+<text x="998" y="152" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="17" fill="#66716f">8892 万</text>
+<text x="40" y="220" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="18" fill="#17201f">长上下文知识库整理</text>
+<rect x="280" y="194" width="700" height="26" rx="6" fill="#e4ecea"/>
+<rect x="280" y="194" width="259" height="26" rx="6" fill="#9a6a13"/>
+<text x="998" y="214" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="17" fill="#66716f">4995 万</text>
+<text x="40" y="282" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="18" fill="#17201f">CSV 数据报告生成器</text>
+<rect x="280" y="256" width="700" height="26" rx="6" fill="#e4ecea"/>
+<rect x="280" y="256" width="240" height="26" rx="6" fill="#247a47"/>
+<text x="998" y="276" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="17" fill="#66716f">4644 万</text>
+<text x="40" y="344" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="18" fill="#17201f">中文报告与图表自动化</text>
+<rect x="280" y="318" width="700" height="26" rx="6" fill="#e4ecea"/>
+<rect x="280" y="318" width="166" height="26" rx="6" fill="#6c5ce7"/>
+<text x="998" y="338" font-family="Microsoft YaHei, Segoe UI, Arial" font-size="17" fill="#66716f">3204 万</text>
+</svg>

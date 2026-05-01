@@ -1,0 +1,9 @@
+category,workload,unit_tokens,volume,total_tokens,notes
+Data analysis workflows,CSV/Excel cleaning + Python scripts + charts,1200000,24,28800000,Reusable data-analysis cases
+Agent coding workflows,Codex/Claude Code multi-file edits + review + retries,1800000,30,54000000,Long-context coding and verification
+Cross-model evaluation,MiMo vs GPT/Claude/DeepSeek on same tasks,2500000,35,87500000,Model consistency and quality checks
+Report generation,Markdown/Word-style Chinese reports + tables + figures,900000,30,27000000,Chinese technical writing and formatting
+Workflow logging,Prompt logs + failure analysis + README case studies,600000,30,18000000,Public case documentation
+Stress testing,Long context, multi-agent, repeated regeneration,4500000,18,81000000,High-token validation scenarios
+Buffer,Unexpected retries and prompt experiments,31500000,1,31500000,Approximate 10-12 percent reserve
+Total,30-day MiMo Orbit target plan,,,328800000,Target request: 300M token plan or equivalent credit

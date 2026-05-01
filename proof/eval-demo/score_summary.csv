@@ -1,0 +1,7 @@
+﻿prompt_id,prompt_title,model,coverage,structure,specificity,total
+csv-report,CSV 数据报告生成,MiMo V2.5 planned,100.00,74.00,100.00,94.80
+csv-report,CSV 数据报告生成,GPT series baseline,80.00,35.00,60.00,67.00
+agent-code-review,Agent 代码修改与验证,MiMo V2.5 planned,100.00,74.00,60.00,86.80
+agent-code-review,Agent 代码修改与验证,DeepSeek baseline,60.00,61.00,40.00,56.20
+mimo-comparison,MiMo 跨模型评测,MiMo V2.5 planned,100.00,48.00,50.00,79.60
+mimo-comparison,MiMo 跨模型评测,Claude baseline,100.00,35.00,30.00,73.00

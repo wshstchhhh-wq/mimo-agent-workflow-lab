@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MiMo Agent Workflow Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">MiMo Orbit application project</p>
+        <h1>Agent Workflow Lab</h1>
+      </div>
+      <div class="target">
+        <span>目标额度</span>
+        <strong>300M tokens</strong>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="summary-band" aria-label="token summary">
+        <div>
+          <span class="metric-label">30 天估算</span>
+          <strong id="totalTokens">0</strong>
+        </div>
+        <div>
+          <span class="metric-label">工作流</span>
+          <strong id="workflowCount">0</strong>
+        </div>
+        <div>
+          <span class="metric-label">平均重试系数</span>
+          <strong id="retryAverage">0</strong>
+        </div>
+        <div>
+          <span class="metric-label">公开产出</span>
+          <strong id="publicCount">0</strong>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="control-panel" aria-label="workflow editor">
+          <h2>新增工作流</h2>
+          <form id="workflowForm">
+            <label>
+              名称
+              <input name="name" required maxlength="64" placeholder="CSV 报告生成器" />
+            </label>
+            <label>
+              类型
+              <select name="domain">
+                <option>数据分析</option>
+                <option>代码生成</option>
+                <option>模型评测</option>
+                <option>文档自动化</option>
+                <option>学习复盘</option>
+              </select>
+            </label>
+            <label>
+              30 天任务数
+              <input name="runs" type="number" min="1" max="300" value="20" />
+            </label>
+            <label>
+              单任务 token
+              <input name="tokens" type="number" min="1000" step="1000" value="1200000" />
+            </label>
+            <label>
+              重试系数
+              <input name="retry" type="number" min="0" max="3" step="0.1" value="0.4" />
+            </label>
+            <label class="checkbox-row">
+              <input name="publicOutput" type="checkbox" checked />
+              产出 README / 报告 / 截图
+            </label>
+            <button type="submit">添加记录</button>
+          </form>
+        </aside>
+
+        <section class="main-panel">
+          <div class="panel-header">
+            <div>
+              <h2>工作流组合</h2>
+              <p>用于证明申请额度来自真实、可复现的 30 天计划。</p>
+            </div>
+            <div class="actions">
+              <button id="resetBtn" type="button">恢复样例</button>
+              <button id="copyBtn" type="button">生成申请摘要</button>
+            </div>
+          </div>
+
+          <div id="chart" class="chart" aria-label="token estimate chart"></div>
+          <div id="workflowList" class="workflow-list"></div>
+        </section>
+      </section>
+
+      <section class="output-section" aria-label="submission copy">
+        <div class="panel-header">
+          <div>
+            <h2>申请摘要</h2>
+            <p>可以复制到 MiMo Orbit 表单第 04 项，按你的真实情况微调。</p>
+          </div>
+        </div>
+        <textarea id="submissionText" spellcheck="false"></textarea>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
